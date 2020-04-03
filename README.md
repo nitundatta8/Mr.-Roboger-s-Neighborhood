@@ -1,7 +1,7 @@
  ### _EPICODUS STUDENT PROJECT | BDD AND ARRAY & LOOp PRACTICE_
  ### Mr. Roboger's Neighborhood
 
-#### By  _** Nitun Datta - April 3, 2020**_
+#### _By Nitun Datta - April 3, 2020_
 
 ## Description
 
@@ -29,7 +29,7 @@
   Input : "2" 
   Output: '"0", 1,2,"Won't you be my
   neighbor?" '  
-  Numbers greater than 9, choice highest value digit's cirearia and replace all digit with corresponding replacement.
+4. Numbers greater than 9, choice highest value digit's cirearia and replace all digit with corresponding replacement.
   Input : "12" 
   Output: '"0", "Beep!","Boop!","Won't you be my",4,5,6,7,8,9,"Beep!","Boop!"'    
 ## Known Bugs
