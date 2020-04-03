@@ -13,7 +13,7 @@
 * Navigate to index.html file.
 * Right click and open in the browser of your choice.
 
-* Alternatively, open the webpage at https://github.com/nitundatta8/Mr.-Roboger-s-Neighborhood
+* Alternatively, open the webpage at https://nitundatta8.github.io/Mr.-Roboger-s-Neighborhood/
 
 
 ## specs
