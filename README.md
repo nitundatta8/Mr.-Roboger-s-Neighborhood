@@ -18,10 +18,20 @@
 
 ## specs
 
-1. Determine if user inputed = 1,the program returns a range of numbers from 0 to the users    inputted number but inputted number replace with "Beep!"
-   Input: "4"
-   Output: "0, "Beep!", 2, 3, 4"
-2.    
+1. The program returns a range of numbers from 0 to the users inputted number.Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+   Input: "1"
+   Output: "0, "Beep!"
+2. Numbers that contain a 2: all digits are replaced (all digits) with "Boop!" 
+   Input : "2" 
+   Output: '"0", 1,"Boop!"'
+3. Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my
+  neighbor?" 
+  Input : "2" 
+  Output: '"0", 1,2,"Won't you be my
+  neighbor?" '  
+  Numbers greater than 9, choice highest value digit's cirearia and replace all digit with corresponding replacement.
+  Input : "12" 
+  Output: '"0", "Beep!","Boop!","Won't you be my",4,5,6,7,8,9,"Beep!","Boop!"'    
 ## Known Bugs
 
 
