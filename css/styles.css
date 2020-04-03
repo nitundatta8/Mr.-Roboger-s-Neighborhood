@@ -1,3 +1,16 @@
-.output{
+.center {
+  text-align: center;
   
+}
+h3{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#output{
+  text-align: center;
+  background-color:lightgray;
+  border-radius: 5px 5px 5px 5px;
+  padding: 15px;
+  box-shadow: 5px 5px 5px grey;
 }

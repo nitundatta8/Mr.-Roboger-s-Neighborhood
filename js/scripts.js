@@ -39,6 +39,7 @@ function isNumber(num){
 }
 
 $(document).ready(function() {
+  $("#output").hide();
   $("#intro").submit(function(event){
      event.preventDefault();
      var num = $("#demo").val();
@@ -54,6 +55,7 @@ $(document).ready(function() {
      var result = createRange(parseInt(num));
      
      $("#output").text(result.join(','));
+     $("#output").show();
   });
   
 });
