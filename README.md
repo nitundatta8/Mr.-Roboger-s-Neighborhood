@@ -1,7 +1,7 @@
  ### _EPICODUS STUDENT PROJECT | BDD AND ARRAY & LOOp PRACTICE_
  ### Mr. Roboger's Neighborhood
 
-#### By _** Nitun Datta - April 3, 2020**_
+#### By  _** Nitun Datta - April 3, 2020**_
 
 ## Description
 
