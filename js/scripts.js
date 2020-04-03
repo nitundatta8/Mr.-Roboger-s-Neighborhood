@@ -1,7 +1,4 @@
 
-
-
-
 function createRange(number){
   var numArray = [];
   for(var index=0; index<=number ; index++){
@@ -26,33 +23,36 @@ function replace(num){
   replaceStr = "Beep!";
   return replaceStr;
   }else{
-    replaceStr = strArray
+    replaceStr = strArray;
   }
-return replaceStr;
+ return replaceStr;
 
 }
 
-var result = replace(13);
-result
-
-// function findHightestValDigit(numInput){
-//   var str = numInput.toString();
-//   var strArray = str.split('');
-//   var maxNum = 0;
-//   for(var i=0; i<strArray.length; i++){
-//     var val = parseInt(strArray[i]);
-//     if(val > maxNum) {
-//       maxNum = val;
-//     }
-//   }
-//   return maxNum;
-// }
+function isNumber(num){
+  if( num !== '' && num>0 && !isNaN(num)){
+   return true;
+  }
+  else{
+    return false;
+  }
+}
 
 $(document).ready(function() {
   $("#intro").submit(function(event){
      event.preventDefault();
      var num = $("#demo").val();
+     if(num === ''){
+       alert("Please enter a number");
+       return;
+     }
+     if(!isNumber(num)){
+      alert("Please enter a valid number");
+      $("#demo").val('');
+      return;
+     }
      var result = createRange(parseInt(num));
+     
      $("#output").text(result.join(','));
   });
   
